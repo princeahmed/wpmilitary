@@ -1,7 +1,6 @@
 *.log
 node_modules
 /build
-/assets
 /vendor
 composer.lock
 
