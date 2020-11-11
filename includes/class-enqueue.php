@@ -14,10 +14,13 @@ if(!class_exists('WP_Military_Enqueue')){
 		}
 
 		public function enqueue_scripts(){
-			$suffix = defined('WP_DEBUG') && WP_DEBUG ? '.min' : '';
 
 			wp_enqueue_style('wp-military-style', get_theme_file_uri("assets/css/style.css"));
-			wp_enqueue_script('wp-military-script', get_theme_file_uri("assets/js/script{$suffix}.js"), ['jquery', 'wp-util'], WP_MILITARY_VERSION, true);
+			wp_enqueue_script( 'wp-military-script',
+			                   get_theme_file_uri( "assets/js/script.min.js" ),
+			                   [ 'jquery', 'wp-util' ],
+			                   WP_MILITARY_VERSION,
+			                   true );
 		}
 
 		/**
