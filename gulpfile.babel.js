@@ -20,11 +20,11 @@ const PRODUCTION = yargs.argv.prod;
 
 const paths = {
   css: {
-    src: ['assets/scss/style.scss'],
+    src: ['assets/scss/style.scss', 'assets/scss/wp-radio.scss'],
     dest: 'assets/css/'
   },
   js: {
-    src: ['assets/js/script.js'],
+    src: ['assets/js/script.js', 'assets/js/wp-radio.js'],
     dest: 'assets/js/'
   },
   images: {
@@ -149,11 +149,6 @@ export const copy = () => {
     .pipe(gulp.dest(paths.other.dest));
 };
 
-export const fonts = () => {
-  return gulp.src('node_modules/font-awesome/fonts/*')
-    .pipe(gulp.dest('assets/fonts'))
-};
-
 export const watch = () => {
   gulp.watch('assets/scss/**/*.scss', css);
   gulp.watch('assets/js/**/*.js', js);
@@ -167,7 +162,7 @@ export const compress = () => {
     .pipe(gulp.dest(paths.build.dest));
 };
 
-export const dev = gulp.series(gulp.parallel(css, js, copy, fonts), watch);
-export const build = gulp.series(clean, gulp.parallel(css, js, copy, fonts), compress);
+export const dev = gulp.series(gulp.parallel(css, js, copy), watch);
+export const build = gulp.series(clean, gulp.parallel(css, js, copy), compress);
 
 export default dev;

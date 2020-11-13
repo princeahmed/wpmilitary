@@ -1,0 +1,16 @@
+.section-features {
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .feature-box {
+    .feature-icon{
+      color: deeppink;
+      border: 1px solid deeppink;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      box-shadow: 0px 0px 9px 2px;
+    }
+  }
+}

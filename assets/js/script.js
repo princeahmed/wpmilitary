@@ -1,8 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-require('bootstrap');
-
-(function ($) {
+;(function ($) {
   const app = {
     init: () => {
 
