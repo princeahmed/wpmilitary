@@ -1,0 +1,96 @@
+footer {
+  &, .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .footer-bg {
+    padding: 16rem 0 2rem 0;
+  }
+
+  &::after {
+    display: block;
+    content: '';
+    height: 100%;
+    background: url(http://codeytech.com/site-templates/applify/assets/img/svg-layers/waves2.svg) top no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .card {
+    max-width: 500px;
+    margin: -18rem auto 5rem auto;
+    text-align: center;
+    border-radius: 15px;
+
+    .card-header {
+      background: linear-gradient(45deg, #8089ff 0%, #54ceff 100%);
+      position: relative;
+      padding: 2rem;
+      overflow: hidden;
+      border-bottom: 0;
+      color: #fff;
+      border-radius: 15px;
+
+      &::after {
+        background: url(http://codeytech.com/site-templates/applify/assets/img/svg-layers/curve-layer.svg) bottom no-repeat;
+        display: block;
+        content: '';
+        height: 100%;
+        background-size: contain;
+        position: absolute;
+        bottom: -2px;
+        left: -6px;
+        right: -6px;
+        z-index: 1;
+      }
+
+    }
+
+    .card-body{
+      padding: 2rem;
+
+      form{
+        input{
+          padding: 8px 1rem 8px 1.5rem;
+          border-top-left-radius: 2rem;
+          border-bottom-left-radius: 2rem;
+        }
+
+        button{
+          color: white;
+          border-top-right-radius: 2rem;
+          border-bottom-right-radius: 2rem;
+        }
+
+      }
+
+    }
+
+  }
+
+  .footer-copyright {
+    padding: 1.25rem 0;
+
+    p {
+      font-size: .9rem;
+      margin-bottom: 0;
+      line-height: 40px;
+    }
+
+    .footer-socials{
+      a{
+        border-radius: 50%;
+        width: 38px;
+        height: 38px;
+        color: #fff;
+      }
+    }
+
+  }
+
+}

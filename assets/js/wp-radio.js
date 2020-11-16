@@ -2,6 +2,41 @@
   const app = {
     init: () => {
 
+
+
+
+      /* Testimonial */
+      $('.testimonial-two').owlCarousel({
+        items:1,
+        loop: true,
+        smartSpeed: 500,
+        responsiveClass: true,
+        nav: false,
+        dots: true,
+        dotsContainer: ".owl-thumbs",
+        autoplay: false,
+        autoplayHoverPause: true,
+        autoplayTimeout: 3000,
+        responsive: {
+          0: {
+            items: 1,
+            margin: 30,
+          },
+          480: {
+            items: 1,
+            margin: 30,
+          },
+          992: {
+            items: 1,
+            margin: 30,
+          }
+        }
+      });
+
+
+
+
+
       $('.statistic-counter_two, .statistic-counter, .count-number').counterUp({
         delay: 10,
         time: 2000

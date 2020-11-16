@@ -20,16 +20,38 @@ if(!class_exists('WP_Military_Enqueue')){
 			                  get_theme_file_uri( "assets/vendor/bootstrap/bootstrap.min.css" ),
 			                  false,
 			                  '4.5.3' );
+
 			wp_enqueue_style( 'font-awesome',
 			                  get_theme_file_uri( "assets/vendor/font-awesome/css/font-awesome.min.css" ),
 			                  false,
 			                  '4.7.0' );
 
+			wp_enqueue_style( 'owl.carousel',
+			                  get_theme_file_uri( "assets/vendor/owl-carousel/owl.carousel.min.css" ),
+			                  false,
+			                  '2.2.1' );
+
+			wp_enqueue_style( 'owl.theme.default',
+			                  get_theme_file_uri( "assets/vendor/owl-carousel/owl.theme.default.min.css" ),
+			                  false,
+			                  '2.2.1' );
+
+
+			/** js */
 			wp_enqueue_script( 'jquery.waypoints.min.js',
 			                   get_theme_file_uri( "assets/vendor/jquery.waypoints.min.js" ),
 			                   [ 'jquery' ],
 			                   '4.0.0',
 			                   true );
+
+
+			wp_enqueue_script( 'owl.carousel',
+			                   get_theme_file_uri( "assets/vendor/owl-carousel/owl.carousel.js" ),
+			                   [ 'jquery' ],
+			                   '2.2.1',
+			                   true );
+
+
 
 			wp_enqueue_script( 'bootstrap',
 			                   get_theme_file_uri( "assets/vendor/bootstrap/bootstrap.bundle.min.js" ),
