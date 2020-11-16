@@ -1,5 +1,20 @@
-.section-features {
+#features {
   background-color: #EAEEFF;
+  padding: 6rem 0 4rem;
+  text-align: center;
+
+  .section-title{
+    span{
+      color: deeppink;
+    }
+  }
+
+  .features-title{
+    margin-bottom: 4rem;
+    span{
+      color: deeppink;
+    }
+  }
 
   .feature-box {
     .feature-icon{

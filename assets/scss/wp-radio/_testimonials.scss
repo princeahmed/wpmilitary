@@ -1,14 +1,50 @@
-/* ===================================
-    Clients Starts
-====================================== */
-
-#clients{
+#testimonials{
   padding: 7.5rem 0;
 
-  background-image: url(https://megaone.acrothemes.com/creative-studio/img/parallax2.png);
+  background-image: url(../images/wp-radio/parallax.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+  .section-title{
+    span{
+      color: deeppink;
+    }
+  }
+
+  .testimonial-items{
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    max-width: 505px;
+
+    .testimonial-para:before{
+      display: block;
+      font-size: 28px;
+      color: #acacac;
+      margin-bottom: 15px;
+      content:"\f10d";
+      font-weight: 700;
+      font-family:'FontAwesome';
+    }
+
+    .testimonial-item h5{
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+
+    .testimonial-item .rating{
+      margin-top: 5px;
+    }
+
+    .testimonial-item .rating i{
+      font-size: 15px;
+      color: #84a1d2;
+    }
+
+  }
+
 }
 
 .main-title{
@@ -17,15 +53,12 @@
   text-align: center;
 }
 
+
 .section-padding .col-lg-12 h5  {
   font-family: 'Roboto', sans-serif;
 }
 .testimonial-two {
-  background: #fff;
-  border-radius: 10px;
-  padding: 30px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-  max-width: 505px;
+
 }
 .testimonial-post {
   overflow: hidden;
@@ -50,26 +83,7 @@
 .testimonial-post:hover a, .testimonial-post:focus a {
   color: #e57bff;
 }
-.testimonial-two .testimonial-para:before{
-  display: block;
-  font-size: 28px;
-  color: #acacac;
-  margin-bottom: 15px;
-  content:"\f10d";
-  font-weight: 700;
-  font-family:'FontAwesome';
-}
-.testimonial-two .testimonial-item h5{
-  margin-top: 10px;
-  margin-bottom: 4px;
-}
-.testimonial-two .testimonial-item .rating{
-  margin-top: 5px;
-}
-.testimonial-two .testimonial-item .rating i{
-  font-size: 15px;
-  color: #84a1d2;
-}
+
 /* testimonial images */
 .owl-thumbs.owl-dots .owl-dot {
   position: absolute;
@@ -80,6 +94,7 @@
   background: transparent;
   z-index: 1;
   opacity: .65;
+  cursor: pointer;
 }
 .owl-thumbs.owl-dots .owl-dot img {
   box-shadow: 0 10px 20px 0 rgba(20,44,56,.25);

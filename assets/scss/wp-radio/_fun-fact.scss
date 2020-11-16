@@ -1,13 +1,31 @@
+#fun-fact {
+  padding: 5rem 0;
 
-.main_counter_area{
-  background: url(https://images.pexels.com/photos/196288/pexels-photo-196288.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) no-repeat top center;
-  background-size: cover;
-  overflow: hidden;
-}
-.main_counter_area .main_counter_content .single_counter{
-  background: rgba(236, 72, 72, 0.5);
-  color: #fff;
-}
-.main_counter_area .main_counter_content .single_counter i{
-  font-size:36px;
+  .section-title{
+    span{
+      color: deeppink;
+    }
+  }
+
+  .fun-fact-box {
+    img{
+      max-width: 80px;
+    }
+
+    .fun-fact-content{
+      h5{
+        font-size: 32px;
+        font-weight: bold;
+        color: deeppink;
+      }
+
+      h6{
+        font-size: 20px;
+        font-weight: bold;
+        color: deepskyblue;
+      }
+
+    }
+
+  }
 }

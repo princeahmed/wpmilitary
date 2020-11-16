@@ -1,7 +1,8 @@
 <!-- Subscribe Footer -->
-<footer class="footer text-light">
+<footer id="footer" class="footer text-light">
 
 	<div class="footer-bg gradient-purple">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -46,11 +47,17 @@
 			<div class="row">
 
 				<!-- Grid column -->
-				<div class="col-md-6 mt-md-0 mt-3">
+				<div class="col-md-6 mt-md-0 mt-3 footer-content">
 
 					<!-- Content -->
-					<h5 class="text-uppercase">Footer Content</h5>
-					<p>Here you can use rows and columns to organize your footer content.</p>
+					<div class="footer-logo footer-menu-title">
+						<img src="<?php echo get_theme_file_uri( 'assets/images/wp-radio/play-button.svg' ) ?>" class="img-fluid">
+						<span>WP RADIO</span>
+					</div>
+
+					<p>WP Radio is a Worldwide Radio Station Directory Player Plugin for WordPress,
+						to Create Worldwide Radio Station Directory Website. You Can Add and Play Unlimited Live Radio Stream Link Such as:
+						iceCast, Shoutcast, Radionomy, Radiojar, RadioCo, etc Live stream.</p>
 
 				</div>
 				<!-- Grid column -->
@@ -58,23 +65,17 @@
 				<hr class="clearfix w-100 d-md-none pb-3">
 
 				<!-- Grid column -->
-				<div class="col-md-3 mb-md-0 mb-3">
+				<div class="col-md-3 mb-md-0 mb-3 footer-menu">
 
 					<!-- Links -->
-					<h5 class="text-uppercase">Links</h5>
+					<h5 class="text-uppercase footer-menu-title">Addons</h5>
 
 					<ul class="list-unstyled">
 						<li>
-							<a href="#!">Link 1</a>
+							<a href="#!">WP Radio User Frontend</a>
 						</li>
 						<li>
-							<a href="#!">Link 2</a>
-						</li>
-						<li>
-							<a href="#!">Link 3</a>
-						</li>
-						<li>
-							<a href="#!">Link 4</a>
+							<a href="#!">WP Radio Image Import</a>
 						</li>
 					</ul>
 
@@ -82,23 +83,23 @@
 				<!-- Grid column -->
 
 				<!-- Grid column -->
-				<div class="col-md-3 mb-md-0 mb-3">
+				<div class="col-md-3 mb-md-0 mb-3 footer-menu">
 
 					<!-- Links -->
-					<h5 class="text-uppercase">Links</h5>
+					<h5 class="text-uppercase footer-menu-title">Company</h5>
 
 					<ul class="list-unstyled">
 						<li>
-							<a href="#!">Link 1</a>
+							<a href="#!">Home</a>
 						</li>
 						<li>
-							<a href="#!">Link 2</a>
+							<a href="#!">About Us</a>
 						</li>
 						<li>
-							<a href="#!">Link 3</a>
+							<a href="#!">Contact Us</a>
 						</li>
 						<li>
-							<a href="#!">Link 4</a>
+							<a href="#!">Privacy Policy</a>
 						</li>
 					</ul>
 
@@ -119,7 +120,7 @@
 				<!-- Copyright -->
 				<div class="col-6">
 					<p class="text-light">
-						&copy; 2020 <a href="htpp://codeytech.com" target="_blank" title="Codeytech">Codeytech</a> All Rights Reserved
+						&copy; 2020 <a href="<?php echo site_url(); ?>" target="_blank" title="WP Military">WP Military</a> All Rights Reserved
 					</p>
 				</div>
 
