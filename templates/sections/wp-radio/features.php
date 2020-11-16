@@ -3,16 +3,16 @@
 	<div class="container">
 		<div class="row">
 
+			<div class="col-md-12">
+				<h2 class="section-title"><span>Amazing Features</span> to <span> Power Up</span> Your Website.</h2>
+			</div>
+
 			<div class="col-md-4">
 				<img src="<?php echo get_theme_file_uri('assets/images/wp-radio/tree-right.png') ?>" class="img-fluid"/>
 			</div>
 
 			<div class="col-md-8">
 				<div class="row">
-
-					<div class="col-md-12">
-						<h2 class="features-title"><span>Amazing Features</span> to <span> Power Up</span> Your Website.</h2>
-					</div>
 
 					<?php
 

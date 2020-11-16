@@ -1,11 +1,11 @@
-<section class="contact">
+<section id="contact" class="contact">
 	<div class="container">
 		<div class="row">
 
 
 			<div class="col-md-12 text-center mb-5">
-				<h1>Need Help? Looking For Support?</h1>
-				<p>We are always ready to help you out.</p>
+				<h2 class="section-title">Any <span>Query</span>? Looking For <span>Support</span>?</h2>
+				<h5 class="section-subtitle">We are always ready to help you out.</h5>
 			</div>
 
 			<div class="col-md-7">

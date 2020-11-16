@@ -1,19 +1,18 @@
 #features {
   background-color: #EAEEFF;
-  padding: 6rem 0 4rem;
+  padding: 4rem ;
   text-align: center;
 
   .section-title{
-    span{
-      color: deeppink;
-    }
+    margin-bottom: 3rem;
+    z-index: 2;
+    position: relative;
   }
 
-  .features-title{
-    margin-bottom: 4rem;
-    span{
-      color: deeppink;
-    }
+  img{
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
   }
 
   .feature-box {

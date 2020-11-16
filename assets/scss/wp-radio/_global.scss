@@ -2,6 +2,14 @@ section{
   position: relative;
 }
 
+.section-title{
+  font-weight: bold;
+  font-size: 48px;
+  span{
+    color: deeppink;
+  }
+}
+
 .gradient-purple {
   background: linear-gradient(45deg, #fd81b5 0%, #c961f7 50%, #8089ff 100%);
 }
