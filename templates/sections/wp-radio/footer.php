@@ -10,22 +10,22 @@
 					<div class="card">
 
 						<div class="card-header gradient-blue">
-							<h3 class="heading text-indigo">Get it to your inbox</h3>
-							<p class="paragraph">
-								Demo: Use your email address to receive the responder email.
-							</p>
+							<h3 class="heading text-indigo">Subscribe to our newsletter</h3>
+							<p class="paragraph">Get the latest news and articles sent straight to your inbox.</p>
 						</div>
 
 						<div class="card-body">
+
+							<script src="https://cdn.getwemail.io/static/js/form-embedded.js"></script>
 							<!-- Form -->
-							<form autocomplete="on" id="sign-up-form" name="sign-up-form">
-								<div class="form-group">
+							<form id="wemail-embedded-subscriber-form" method="post" action="https://api.getwemail.io/v1/embed/subscribe/7e164d2c-c660-4a0b-955c-723718252774">
+
+							<div class="form-group">
 									<div class="input-group">
-										<!-- Email Input -->
-										<input autocomplete="email" class="input form-control" data-validation="required" data-validation-error-msg="Please enter your email" name="email" placeholder="Email">
+										<input type="email" name="email" required="required" id="wemail-email" placeholder="Enter email" class="form-control"/>
 										<div class="input-group-append">
 											<!-- Submit Button -->
-											<button class="btn gradient-green">Subscribe
+											<button type="submit" class="btn gradient-green">Subscribe
 												<span class="fa fa-send"></span>
 											</button>
 										</div>

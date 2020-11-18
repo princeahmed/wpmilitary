@@ -36,6 +36,11 @@
       color: #fff;
       border-radius: 15px;
 
+      h3{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+      }
+
       &::after {
         background: url(../images/wp-radio/curve-layer.svg) bottom no-repeat;
         display: block;
@@ -110,6 +115,8 @@
       border-bottom: 2px solid #fff;
       padding: 0 20px 10px 0;
       display: inline-block;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
     }
   }
 

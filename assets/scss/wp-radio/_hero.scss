@@ -4,4 +4,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../images/wp-radio/hero-bg.jpg);
+
+  .hero-text{
+    h1{
+      color: deepskyblue;
+    }
+
+    h5{
+      color: deepskyblue;
+    }
+
+    p{
+      color: #fff;
+      margin-top: 30px;
+    }
+  }
+
 }

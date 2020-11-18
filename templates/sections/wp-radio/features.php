@@ -54,7 +54,7 @@
 						<div class="col-md-4 feature-box mb-3">
 
 							<i class="fa fa-3x red-text feature-icon d-inline-flex justify-content-center align-items-center <?php echo $feature['icon']; ?>"></i>
-							<h5 class="font-weight-bold my-4 text-dark"><?php echo $feature['title']; ?></h5>
+							<h5 class="my-4 text-dark"><?php echo $feature['title']; ?></h5>
 						</div>
 						<!-- Grid column -->
 					<?php } ?>

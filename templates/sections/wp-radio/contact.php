@@ -10,31 +10,9 @@
 
 			<div class="col-md-7">
 				<div class="contact_form">
-					<form action="contact_process.php" class="contact_form_box" method="post" id="contactForm" novalidate="novalidate">
-						<div class="row">
-							<div class="col-lg-6">
-								<div class="form-group">
-									<input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="form-group">
-									<input type="text" name="email" class="form-control"  id="email" placeholder="Your Email">
-								</div>
-							</div>
-							<div class="col-lg-12">
-								<div class="form-group">
-									<input type="text" id="subject" name="subject" placeholder="Subject">
-								</div>
-							</div>
-							<div class="col-lg-12">
-								<div class="form-group">
-									<textarea name="message" id="message" cols="30" rows="10" class="form-control"  placeholder="Enter Your Message . . ."></textarea>
-								</div>
-							</div>
-						</div>
-						<button type="submit" class="btn">Send Message</button>
-					</form>
+
+
+					<?php echo do_shortcode('[gravityform id=1 ajax="true" title="false" description="false"]') ?>
 
 				</div>
 			</div>

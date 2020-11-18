@@ -16,155 +16,128 @@
 						<div class="nav-wrapper">
 							<ul class="nav nav-tabs justify-content-center">
 								<li class="nav-item">
-									<a class="nav-link active" data-toggle="tab" href="#month">Monthly</a></li>
-								<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#annual">Annual</a>
+									<a class="nav-link active" data-target="annual" href="#">Annual</a></li>
+								<li class="nav-item">
+									<a class="nav-link" data-target="lifetime" href="#">Lifetime</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 
-					<div class="tab-content">
+					<div class="table-wrapper pricing-table annual">
+						<div class="inner-table clearfix">
+							<ul class="list-unstyled pr-list-text">
+								<li>Station Importer</li>
+								<li>Radio Stations</li>
+								<li>Countries</li>
+								<li>Footer Player</li>
+								<li>Shortcode Player</li>
+								<li>CSV Importer</li>
+								<li>Popup Player</li>
+								<li>Display Settings</li>
+								<li>Player Settings</li>
+								<li>Style Settings</li>
+								<li>Permalink Settings</li>
+								<li>Station Plays Statistics</li>
+								<li>Dedicated Support</li>
+							</ul>
 
-						<div id="month" class="tab-pane fade show active">
-							<div class="table-wrapper">
-								<div class="inner-table clearfix">
-									<ul class="list-unstyled pr-list-text">
-										<li>Full Access Library</li>
-										<li>Multiple User</li>
-										<li>Refund</li>
-										<li>24/7 Support</li>
-									</ul>
-									<div class="pr-column">
-										<div class="pr-header">
-											<div class="price">$6000<span>/MO</span></div>
-											<h4 class="title">Subway</h4>
-											<div class="package">Premium</div>
-										</div> <!-- /.pr-header -->
-										<ul class="list-unstyled pr-body">
-											<li>
-												<div class="pr-text">Full Access Library</div>
-												<i class="fa fa-times"></i>
-											</li>
-											<li>
-												<div class="pr-text">Multiple User</div>
-												<i class="fa fa-times"></i>
-											</li>
-											<li>
-												<div class="pr-text">Refund</div>
-												<i class="fa fa-check"></i>
-											</li>
-											<li>
-												<div class="pr-text">24/7 Support</div>
-												<i class="fa fa-check"></i>
-											</li>
-										</ul>
-										<div class="pr-footer">
-											<a href="#" class="theme-btn line-button-two button-orange">Choose Plan</a>
-										</div>
-									</div>
+							<div class="pr-column">
 
-									<div class="pr-column">
-										<div class="pr-header">
-											<div class="price">$9500<span>/MO</span></div>
-											<h4 class="title">Burger</h4>
-											<div class="package">Corporate</div>
-										</div> <!-- /.pr-header -->
-										<ul class="list-unstyled pr-body">
-											<li>
-												<div class="pr-text">Full Access Library</div>
-												<i class="fa fa-check"></i>
-											</li>
-											<li>
-												<div class="pr-text">Multiple User</div>
-												<i class="fa fa-check"></i>
-											</li>
-											<li>
-												<div class="pr-text">Refund</div>
-												<i class="fa fa-check"></i>
-											</li>
-											<li>
-												<div class="pr-text">24/7 Support</div>
-												<i class="fa fa-check"></i>
-											</li>
-										</ul>
-										<div class="pr-footer">
-											<a href="#" class="theme-btn line-button-two button-orange">Choose Plan</a>
-										</div>
-									</div>
+								<div class="pr-header">
+									<div class="price">$0<span>/ Forever</span></div>
+									<h4 class="title">Free</h4>
+								</div>
+
+								<ul class="list-unstyled pr-body">
+									<li><i class="fa fa-check"></i></li>
+									<li>1850+</li>
+									<li>20</li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-times"></i></li>
+									<li><i class="fa fa-times"></i></li>
+									<li><i class="fa fa-times"></i></li>
+									<li><i class="fa fa-times"></i></li>
+									<li><i class="fa fa-times"></i></li>
+									<li><i class="fa fa-times"></i></li>
+									<li><i class="fa fa-times"></i></li>
+									<li><i class="fa fa-times"></i></li>
+								</ul>
+
+								<div class="pr-footer">
+									<a href="https://wordpress.org/plugins/wp-radio/" target="_blank" class="theme-btn line-button-two button-orange">
+										<i class="fa fa-download"></i> Download Now
+									</a>
+								</div>
+
+							</div>
+
+							<div class="pr-column">
+								<div class="pr-header">
+									<div class="price annual-price">$59<span>/ Year</span></div>
+									<div class="price lifetime-price">$99<span>/ Year</span></div>
+									<h4 class="title">PRO</h4>
+								</div>
+
+								<ul class="list-unstyled pr-body">
+									<li><i class="fa fa-check"></i></li>
+									<li>45000+</li>
+									<li>233+</li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-check"></i></li>
+									<li><i class="fa fa-check"></i></li>
+								</ul>
+
+								<div class="pr-footer">
+
+									<a href="#" class="purchase theme-btn line-button-two button-orange"><i class="fa fa-send"></i> Buy Now</a>
+
+									<script src="https://checkout.freemius.com/checkout.min.js"></script>
+									<script>
+										(function ($) {
+                                            $(document).ready(function () {
+                                                var handler = FS.Checkout.configure({
+                                                    plugin_id:  '4227',
+                                                    plan_id:    '6865',
+                                                    public_key: 'pk_6acab182f004d200ec631d063d6c4',
+                                                    image:      'https://your-plugin-site.com/logo-100x100.png'
+                                                });
+
+                                                $('.purchase').on('click', function (e) {
+                                                    e.preventDefault();
+
+                                                    handler.open({
+                                                        name     : 'WP Radio - Worldwide Radio Station Directory',
+                                                        licenses : 1,
+                                                        // You can consume the response for after purchase logic.
+                                                        purchaseCompleted  : function (response) {
+                                                            // The logic here will be executed immediately after the purchase confirmation.
+                                                            // alert(response.user.email);
+                                                        },
+                                                        success  : function (response) {
+                                                            // The logic here will be executed after the customer closes the checkout, after a successful purchase.
+                                                            // alert(response.user.email);
+                                                        }
+                                                    });
+                                                });
+                                            });
+                                        })(jQuery);
+									</script>
+
 								</div>
 							</div>
-						</div>
 
-						<div id="annual" class="tab-pane fade">
-							<div class="table-wrapper">
-								<div class="inner-table clearfix">
-									<ul class="list-unstyled pr-list-text">
-										<li>Full Access Library</li>
-										<li>Multiple User</li>
-										<li>Refund</li>
-										<li>24/7 Support</li>
-									</ul>
-									<div class="pr-column">
-										<div class="pr-header">
-											<div class="price">$8000<span>/YR</span></div>
-											<h4 class="title">Subway</h4>
-											<div class="package">Premium</div>
-										</div>
-										<ul class="list-unstyled pr-body">
-											<li>
-												<div class="pr-text">Full Access Library</div>
-												<i class="fa fa-times"></i>
-											</li>
-											<li>
-												<div class="pr-text">Multiple User</div>
-												<i class="fa fa-times"></i>
-											</li>
-											<li>
-												<div class="pr-text">Refund</div>
-												<i class="fa fa-check"></i>
-											</li>
-											<li>
-												<div class="pr-text">24/7 Support</div>
-												<i class="fa fa-check"></i>
-											</li>
-										</ul>
-										<div class="pr-footer">
-											<a href="#" class="theme-btn line-button-two button-orange">Choose Plan</a>
-										</div>
-									</div>
-
-									<div class="pr-column">
-										<div class="pr-header">
-											<div class="price">$9900<span>/YR</span></div>
-											<h4 class="title">Burger</h4>
-											<div class="package">Corporate</div>
-										</div>
-										<ul class="list-unstyled pr-body">
-											<li>
-												<div class="pr-text">Full Access Library</div>
-												<i class="fa fa-check"></i>
-											</li>
-											<li>
-												<div class="pr-text">Multiple User</div>
-												<i class="fa fa-check"></i>
-											</li>
-											<li>
-												<div class="pr-text">Refund</div>
-												<i class="fa fa-check"></i>
-											</li>
-											<li>
-												<div class="pr-text">24/7 Support</div>
-												<i class="fa fa-check"></i>
-											</li>
-										</ul>
-										<div class="pr-footer">
-											<a href="#" class="theme-btn line-button-two button-orange">Choose Plan</a>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 

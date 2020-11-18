@@ -10,6 +10,20 @@
 
       $(document).on('click', '.client-single', app.handleTestimonial);
       $(window).scroll(app.navbarSticky);
+
+      $(document).on('click', '.pricing-tab-menu .nav-link', app.handlePricingTable)
+    },
+
+    handlePricingTable: function (e) {
+      e.preventDefault();
+
+      $('.pricing-tab-menu .nav-link').removeClass('active');
+      $(this).addClass('active');
+
+      const target = $(this).data('target');
+
+      $('.pricing-table').removeClass('annual lifetime').addClass(target);
+
     },
 
     navbarSticky: () => {

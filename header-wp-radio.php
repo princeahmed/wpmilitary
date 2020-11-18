@@ -26,7 +26,7 @@
 
 		<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 			<ul class="nav navbar-nav menu_nav ml-auto">
-				<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="<?php echo site_url('wp-radio'); ?>">Home</a></li>
 				<li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
 				<li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
 				<li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
