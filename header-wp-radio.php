@@ -31,8 +31,13 @@
 				<li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
 				<li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
 				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+				<li class="nav-item">
+					<a class="nav-link buy-now-btn btn purchase" href="javascript:;">Buy Now</a>
+				</li>
 			</ul>
 		</div>
 
 	</div>
 </nav>
+
+
