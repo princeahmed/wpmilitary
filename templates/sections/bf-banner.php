@@ -18,14 +18,16 @@
 
 	<a href="javascript:;" class="banner-action purchase btn">Buy Now</a>
 
+	<span class="close-banner">&times;</span>
+
 </div>
 
 <script>
 	function timer() {
-		var currentTime = new Date()
-		var hours = currentTime.getHours()
-		var minutes = currentTime.getMinutes()
-		var seconds = currentTime.getSeconds()
+        var currentTime = new Date();
+        var hours = currentTime.getHours();
+        var minutes = currentTime.getMinutes();
+        var seconds = currentTime.getSeconds();
 
 		if (minutes < 10) {
 			minutes = "0" + minutes
@@ -87,13 +89,22 @@
 			document.write("Error, please contact admin");
 		}
 
-		//document.getElementById('timerUpFront').innerHTML = hoursLeft + " hours " + minsLeft + " minutes " + secsLeft + " seconds";
 		document.getElementById('timerUpFront').innerHTML = `
-<div class="counter-part"><span>${hoursLeft} : </span> <span class="counter-text">Hours</span></div>
-<div class="counter-part">${minsLeft} : </span> <span class="counter-text">Minutes</span></div>
-<div class="counter-part">${secsLeft}</span> <span class="counter-text">Seconds</span> </div>`;
-
-	}
+				<div class="counter-part"><span>${hoursLeft} : </span> <span class="counter-text">Hours</span></div>
+				<div class="counter-part">${minsLeft} : </span> <span class="counter-text">Minutes</span></div>
+				<div class="counter-part">${secsLeft}</span> <span class="counter-text">Seconds</span> </div>`;
+    }
 
 	var countdownTimer = setInterval('timer()', 1000);
+
+
+    /**--Close Banner--**/
+    (function ($) {
+        $(document).ready(function () {
+            $('.close-banner').on('click', function () {
+                $('body').removeClass('banner-active');
+                $('.wp-military-bf-banner').addClass('hidden');
+            });
+        });
+    })(jQuery);
 </script>

@@ -79,7 +79,7 @@ section.pricing {
     width: 300px;
     position: absolute;
     left: 0;
-    top: 123px;
+    top: 164px;
 
     li {
       padding: 7px 20px;
@@ -102,6 +102,12 @@ section.pricing {
     border-right: none;
     text-align: center;
 
+    &.free{
+      .pr-header{
+        padding-bottom: 50px;
+      }
+    }
+
     &:last-child {
       border-right: 1px solid $border_color;
     }
@@ -109,6 +115,13 @@ section.pricing {
     .pr-header {
       padding: 10px;
       border-bottom: 1px solid $border_color;
+
+      .annual-price-cross, .lifetime-price-cross {
+        color: #777;
+        text-decoration: line-through;
+        font-size: 40px;
+        line-height: 1;
+      }
 
       .price {
         font-family: 'Nunito', sans-serif;
@@ -225,19 +238,21 @@ section.pricing {
   }
 
   &.annual {
-    .lifetime-price {
+    .lifetime-price, .lifetime-price-cross {
       display: none;
     }
-    .annual-price {
+
+    .annual-price, .annual-price-cross {
       display: block;
     }
   }
 
   &.lifetime {
-    .lifetime-price {
+    .lifetime-price, .lifetime-price-cross {
       display: block;
     }
-    .annual-price {
+
+    .annual-price, .annual-price-cross {
       display: none;
     }
   }

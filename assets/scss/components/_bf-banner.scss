@@ -1,5 +1,9 @@
 body.banner-active {
   margin-top: 80px;
+
+  #header-nav.is-sticky{
+    top: 80px;
+  }
 }
 
 .wp-military-bf-banner {
@@ -13,7 +17,7 @@ body.banner-active {
   width: 100%;
   z-index: 999;
   border-bottom: 1px solid;
-  height: 100px;
+  height: 80px;
   font-family: 'Nunito', sans-serif;
   display: flex;
   align-items: center;
@@ -28,11 +32,12 @@ body.banner-active {
     background-repeat: no-repeat;
     background-size: contain;
     padding-left: 50px;
+    padding-top: 15px;
     background-position-x: -15px;
 
     .heading-main {
       color: deeppink;
-      font-size: 48px;
+      font-size: 38px;
       font-weight: 900;
       font-family: 'Nunito', sans-serif;
       position: relative;
@@ -40,15 +45,20 @@ body.banner-active {
     }
 
     .heading-desc {
-      font-size: 24px;
+      font-size: 18px;
       position: relative;
-      bottom: -20px;
+      bottom: -12px;
       left: -130px;
       color: #fff;
+
+      b{
+        color: #fb8903;
+        font-weight: 900;
+      }
     }
   }
 
-  .counter-time{
+  .counter-timer{
     margin-left: -200px;
 
     .limited-time{
@@ -58,8 +68,9 @@ body.banner-active {
 
   #timerUpFront{
     color: #fff;
-    font-size: 30px;
+    font-size: 22px;
     display: flex;
+    line-height: 1;
 
     .counter-part{
       display: flex;
@@ -67,7 +78,8 @@ body.banner-active {
       margin-right: 15px;
 
       .counter-text{
-        font-size: 14px;
+        margin-top: 3px;
+        font-size: 13px;
       }
 
     }
@@ -77,17 +89,19 @@ body.banner-active {
     display: flex;
     flex-flow: column;
     position: relative;
+    line-height: 1;
+    padding-top: 18px;
 
     span:first-child, span:last-child {
       position: relative;
-      font-size: 22px;
+      font-size: 16px;
       font-weight: 700;
       color: #fff;
     }
 
     span:first-child {
-      left: -70px;
-      top: 15px;
+      left: -50px;
+      top: 2px;
     }
 
     span:last-child {
@@ -100,6 +114,10 @@ body.banner-active {
       font-family: 'Nunito', sans-serif;
       font-size: 38px;
       color: #fb8903;
+
+      sup{
+        margin-left: -10px;
+      }
     }
 
 
@@ -108,11 +126,26 @@ body.banner-active {
   .banner-action {
     background: deeppink;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 16px;
     font-weight: bold;
     border-radius: 9px;
-    font-size: 18px;
+    font-size: 16px;
     box-shadow: 0 0 9px -3px #000;
+  }
+
+  .close-banner{
+    position: absolute;
+    color: #fff;
+    right: 10px;
+    top: 28px;
+    border: 1px solid;
+    border-radius: 19px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
   }
 
 }

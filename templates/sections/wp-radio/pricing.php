@@ -42,7 +42,7 @@
 								<li>Dedicated Support</li>
 							</ul>
 
-							<div class="pr-column">
+							<div class="pr-column free">
 
 								<div class="pr-header">
 									<div class="price">$0<span>/ Forever</span></div>
@@ -75,8 +75,13 @@
 
 							<div class="pr-column">
 								<div class="pr-header">
-									<div class="price annual-price">$59<span>/ Year</span></div>
-									<div class="price lifetime-price">$99<span>/ Year</span></div>
+
+									<div class="annual-price-cross">$99</div>
+									<div class="price annual-price">$30<span>/ Year</span></div>
+
+									<div class="lifetime-price-cross">$199</div>
+									<div class="price lifetime-price">$59<span>/ Year</span></div>
+
 									<h4 class="title">PRO</h4>
 								</div>
 
