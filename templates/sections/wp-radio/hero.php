@@ -1,4 +1,4 @@
-<section id="hero" class="hero">
+<section id="hero" class="hero d-flex align-items-center">
 	<div class="container ">
 		<div class="row align-items-center d-flex justify-content-between">
 

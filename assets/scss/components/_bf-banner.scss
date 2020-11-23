@@ -1,0 +1,118 @@
+body.banner-active {
+  margin-top: 80px;
+}
+
+.wp-military-bf-banner {
+  background-image: url(../images/bf-banner-big.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  border-bottom: 1px solid;
+  height: 100px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+
+  .banner-heading {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-image: url(../images/bf-banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 50px;
+    background-position-x: -15px;
+
+    .heading-main {
+      color: deeppink;
+      font-size: 48px;
+      font-weight: 900;
+      font-family: 'Nunito', sans-serif;
+      position: relative;
+      top: -20px;
+    }
+
+    .heading-desc {
+      font-size: 24px;
+      position: relative;
+      bottom: -20px;
+      left: -130px;
+      color: #fff;
+    }
+  }
+
+  .counter-time{
+    margin-left: -200px;
+
+    .limited-time{
+      color: skyblue;
+    }
+  }
+
+  #timerUpFront{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+
+    .counter-part{
+      display: flex;
+      flex-flow: column;
+      margin-right: 15px;
+
+      .counter-text{
+        font-size: 14px;
+      }
+
+    }
+  }
+
+  .discount-text {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+
+    span:first-child, span:last-child {
+      position: relative;
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    span:first-child {
+      left: -70px;
+      top: 15px;
+    }
+
+    span:last-child {
+      right: -50px;
+      bottom: 20px;
+    }
+
+    .discount {
+      font-weight: 900;
+      font-family: 'Nunito', sans-serif;
+      font-size: 38px;
+      color: #fb8903;
+    }
+
+
+  }
+
+  .banner-action {
+    background: deeppink;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 9px;
+    font-size: 18px;
+    box-shadow: 0 0 9px -3px #000;
+  }
+
+}
