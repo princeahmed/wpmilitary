@@ -19,14 +19,8 @@ get_header();
 				<div class="col-12 my-auto">
 					<div class="masthead-content text-white py-5 py-md-0">
 						<h1 class="mb-3">Coming Soon!</h1>
-						<p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
+						<p class="mb-2">We're working hard to finish the development of this site. Our target launch date is
 							<strong>27 December, 2020 </strong>! Sign up for updates using the form below!</p>
-
-						<a href="https://wpmilitary.com/wp-radio">
-							<h3 class="btn font-weight-bold">
-								<i class="fa fa-play"></i> GET WP Radio
-							</h3>
-						</a>
 
 						<!-- Subscription Form -->
 						<form id="wemail-embedded-subscriber-form" method="post" action="https://api.getwemail.io/v1/embed/subscribe/7e164d2c-c660-4a0b-955c-723718252774">
@@ -40,6 +34,12 @@ get_header();
 
 						</form>
 						<script src="https://cdn.getwemail.io/static/js/form-embedded.js"></script>
+
+
+						<h6 class="mt-3">Black Friday Flash Sale Going On <b style="color: deeppink">WP Radio Player</b></h6>
+						<a href="https://wpmilitary.com/wp-radio" class="btn">
+							<i class="fa fa-send"></i>
+							CLAIM 70% OFF</a>
 
 					</div>
 				</div>
