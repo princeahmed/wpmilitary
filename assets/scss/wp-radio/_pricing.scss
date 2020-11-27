@@ -115,6 +115,7 @@ section.pricing {
     .pr-header {
       padding: 10px;
       border-bottom: 1px solid $border_color;
+      position: relative;
 
       .annual-price-cross, .lifetime-price-cross {
         color: #777;
@@ -150,6 +151,13 @@ section.pricing {
         font-size: 18px;
         text-transform: uppercase;
         color: rgba(35, 61, 99, 0.35);
+      }
+
+      img{
+        position: absolute;
+        width: 90px;
+        right: -30px;
+        top: -40px;
       }
 
 

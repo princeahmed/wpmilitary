@@ -76,6 +76,8 @@
 							<div class="pr-column">
 								<div class="pr-header">
 
+									<img src="<?php echo get_theme_file_uri('assets/images/wp-radio/70-off.png') ?>" class="img-fluid">
+
 									<div class="annual-price-cross">$99</div>
 									<div class="price annual-price">$30<span>/ Year</span></div>
 
