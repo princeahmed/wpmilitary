@@ -20,7 +20,13 @@ get_header();
 					<div class="masthead-content text-white py-5 py-md-0">
 						<h1 class="mb-3">Coming Soon!</h1>
 						<p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
-							<strong>27 November, 2020 </strong>! Sign up for updates using the form below!</p>
+							<strong>27 December, 2020 </strong>! Sign up for updates using the form below!</p>
+
+						<a href="https://wpmilitary.com/wp-radio">
+							<h3 class="btn font-weight-bold">
+								<i class="fa fa-play"></i> GET WP Radio
+							</h3>
+						</a>
 
 						<!-- Subscription Form -->
 						<form id="wemail-embedded-subscriber-form" method="post" action="https://api.getwemail.io/v1/embed/subscribe/7e164d2c-c660-4a0b-955c-723718252774">
@@ -41,24 +47,24 @@ get_header();
 		</div>
 	</div>
 
-	<div class="social-icons">
-		<ul class="list-unstyled text-center mb-0">
-			<li class="list-unstyled-item">
-				<a href="#">
-					<i class="fa fa-twitter"></i>
-				</a>
-			</li>
-			<li class="list-unstyled-item">
-				<a href="#">
-					<i class="fa fa-facebook-f"></i>
-				</a>
-			</li>
-			<li class="list-unstyled-item">
-				<a href="#">
-					<i class="fa fa-instagram"></i>
-				</a>
-			</li>
-		</ul>
-	</div>
+	<!--	<div class="social-icons">-->
+	<!--		<ul class="list-unstyled text-center mb-0">-->
+	<!--			<li class="list-unstyled-item">-->
+	<!--				<a href="#">-->
+	<!--					<i class="fa fa-twitter"></i>-->
+	<!--				</a>-->
+	<!--			</li>-->
+	<!--			<li class="list-unstyled-item">-->
+	<!--				<a href="#">-->
+	<!--					<i class="fa fa-facebook-f"></i>-->
+	<!--				</a>-->
+	<!--			</li>-->
+	<!--			<li class="list-unstyled-item">-->
+	<!--				<a href="#">-->
+	<!--					<i class="fa fa-instagram"></i>-->
+	<!--				</a>-->
+	<!--			</li>-->
+	<!--		</ul>-->
+	<!--	</div>-->
 <?php
 get_footer();
