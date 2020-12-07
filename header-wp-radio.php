@@ -10,7 +10,7 @@
 </head>
 <body <?php body_class('banner-active'); ?>>
 
-<?php get_template_part( 'templates/sections/bf-banner' ); ?>
+<?php //get_template_part( 'templates/sections/bf-banner' ); ?>
 
 <nav id="header-nav" class="navbar navbar-expand-lg">
 	<div class="container">

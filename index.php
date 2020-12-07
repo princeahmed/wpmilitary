@@ -36,10 +36,10 @@ get_header();
 						<script src="https://cdn.getwemail.io/static/js/form-embedded.js"></script>
 
 
-						<h6 class="mt-3">Black Friday Flash Sale Going On <b style="color: deeppink">WP Radio Player</b></h6>
-						<a href="https://wpmilitary.com/wp-radio" class="btn">
-							<i class="fa fa-send"></i>
-							CLAIM 70% OFF</a>
+<!--						<h6 class="mt-3">Black Friday Flash Sale Going On <b style="color: deeppink">WP Radio Player</b></h6>-->
+<!--						<a href="https://wpmilitary.com/wp-radio" class="btn">-->
+<!--							<i class="fa fa-send"></i>-->
+<!--							CLAIM 70% OFF</a>-->
 
 					</div>
 				</div>
