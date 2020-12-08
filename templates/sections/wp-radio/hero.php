@@ -10,7 +10,7 @@
 					iceCast, Shoutcast, Radionomy, Radiojar, RadioCo, etc Live stream.</p>
 
 				<div class="d-flex mt-3 mb-1">
-					<a class="btn btn-outline-info btn-raised text-uppercase btn-lg  mt-md-3 mr-3" href="#" role="button">
+					<a class="btn btn-outline-info btn-raised text-uppercase btn-lg  mt-md-3 mr-3" href="https://wordpress.org/plugins/wp-radio/" target="_blank" role="button">
 						<i class="fa fa-download"></i> Download</a>
 					<a class="purchase btn btn-outline-warning btn-raised text-uppercase btn-lg  mt-md-3" href="#" role="button">
 						<i class="fa fa-send"></i> Buy Now</a>

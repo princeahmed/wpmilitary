@@ -76,12 +76,12 @@
 							<div class="pr-column">
 								<div class="pr-header">
 
-<!--									<img src="--><?php //echo get_theme_file_uri('assets/images/wp-radio/70-off.png') ?><!--" class="img-fluid">-->
+									<img src="<?php echo get_theme_file_uri('assets/images/wp-radio/50-off.png') ?>" class="img-fluid">
 
-<!--									<div class="annual-price-cross">$99</div>-->
+									<div class="annual-price-cross">$120</div>
 									<div class="price annual-price">$59<span>/ Year</span></div>
 
-<!--									<div class="lifetime-price-cross">$199</div>-->
+									<div class="lifetime-price-cross">$199</div>
 									<div class="price lifetime-price">$99<span>/ Forever</span></div>
 
 									<h4 class="title">PRO</h4>
