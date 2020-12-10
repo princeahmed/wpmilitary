@@ -1,0 +1,30 @@
+body {
+  color: $color_text;
+  background-color: #fff;
+
+  a {
+    color: $color_link;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $color_bg_strong;
+  }
+
+}
+
+.bg_primary {
+  background-color: $color_bg_strong;
+}
+
+.btn{
+  background-color: $color_bg_strong;
+  color: $color_link;
+  &:hover{
+    color: #fff;
+  }
+}

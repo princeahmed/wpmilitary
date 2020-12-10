@@ -13,10 +13,12 @@ import named from 'vinyl-named';
 import zip from 'gulp-zip';
 import replace from 'gulp-replace';
 import rename from 'gulp-rename';
+import browserSync from 'browser-sync';
 
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const PRODUCTION = yargs.argv.prod;
+const server = browserSync.create();
 
 const paths = {
   css: {
@@ -97,6 +99,7 @@ export const css = () => {
     .pipe(gulpif(PRODUCTION, cleanCss({compatibility: 'ie8'})))
     .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
     .pipe(gulp.dest(paths.css.dest))
+    .pipe(server.stream());
 };
 
 export const js = () => {
@@ -149,10 +152,24 @@ export const copy = () => {
     .pipe(gulp.dest(paths.other.dest));
 };
 
+export const serve = done => {
+  server.init({
+    proxy: `localhost/wp-radio`
+  });
+
+  done();
+};
+
+export const reload = done => {
+  server.reload();
+  done();
+};
+
 export const watch = () => {
   gulp.watch('assets/scss/**/*.scss', css);
-  gulp.watch('assets/js/**/*.js', js);
-  gulp.watch(paths.other.src, copy);
+  gulp.watch('assets/js/**/*.js', gulp.series(js, reload));
+  gulp.watch(paths.other.src, gulp.series(copy, reload));
+  gulp.watch(paths.php.src, reload);
 };
 
 export const compress = () => {
@@ -162,7 +179,7 @@ export const compress = () => {
     .pipe(gulp.dest(paths.build.dest));
 };
 
-export const dev = gulp.series(gulp.parallel(css, js, copy), watch);
+export const dev = gulp.series(gulp.parallel(css, js, copy), serve, watch);
 export const build = gulp.series(clean, gulp.parallel(css, js, copy), compress);
 
 export default dev;
