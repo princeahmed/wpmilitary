@@ -10,7 +10,7 @@
 
 			<div class="col-md-4">
 				<div class="speciality">
-					<i class="fas fa-3x fa-code"></i>
+					<i class="fas fa fa-3x fa-diamond"></i>
 					<h3>Unique Products</h3>
 				</div>
 			</div>
@@ -22,25 +22,25 @@
 			</div>
 			<div class="col-md-4">
 				<div class="speciality">
-					<i class="fas fa-3x fa-code"></i>
+					<i class="fas fa-3x fa-lightbulb"></i>
 					<h3>Problem Solvers</h3>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="speciality">
-					<i class="fas fa-3x fa-code"></i>
+					<i class="fas fa-3x fa-life-saver"></i>
 					<h3>Dedicated Support</h3>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="speciality">
-					<i class="fas fa-3x fa-code"></i>
+					<i class="fas fa-3x fa-lock"></i>
 					<h3>Security</h3>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="speciality">
-					<i class="fas fa-3x fa-code"></i>
+					<i class="fas fa-3x fa-refresh"></i>
 					<h3>Regular Updates</h3>
 				</div>
 			</div>
