@@ -1,4 +1,7 @@
-;(function ($) {
+import './components/testimonials';
+
+
+(function ($) {
   const app = {
     init: () => {
 
