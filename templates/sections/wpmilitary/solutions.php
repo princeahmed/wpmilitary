@@ -1,4 +1,4 @@
-<section class="solutions">
+<section class="solutions" id="solutions">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -18,7 +18,7 @@
 						</div>
 
 						<div class="col-md-5">
-							<img src="<?php echo get_theme_file_uri( 'assets/images/wp-radio/cta.svg' ); ?>" class="img-fluid" alt="WP Radio Player">
+							<img src="<?php echo get_theme_file_uri( 'assets/images/wpmilitary/wp-radio.svg' ); ?>" class="img-fluid" alt="WP Radio Player">
 						</div>
 
 					</div>

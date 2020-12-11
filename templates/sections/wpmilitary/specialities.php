@@ -1,6 +1,7 @@
 <section id="specialities">
 	<div class="container">
 		<div class="row">
+
 			<div class="col-md-12">
 				<div class="section-title">
 					<h2>Our Specialities</h2>
@@ -9,37 +10,37 @@
 			</div>
 
 			<div class="col-md-4">
-				<div class="speciality">
+				<div class="speciality unique-products">
 					<i class="fas fa fa-3x fa-diamond"></i>
 					<h3>Unique Products</h3>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="speciality">
+				<div class="speciality clean-code">
 					<i class="fas fa-3x fa-code"></i>
 					<h3>Clean & Organised Code</h3>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="speciality">
+				<div class="speciality problem-slovers">
 					<i class="fas fa-3x fa-lightbulb"></i>
 					<h3>Problem Solvers</h3>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="speciality">
+				<div class="speciality dedicated-support">
 					<i class="fas fa-3x fa-life-saver"></i>
 					<h3>Dedicated Support</h3>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="speciality">
+				<div class="speciality security">
 					<i class="fas fa-3x fa-lock"></i>
 					<h3>Security</h3>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="speciality">
+				<div class="speciality updates">
 					<i class="fas fa-3x fa-refresh"></i>
 					<h3>Regular Updates</h3>
 				</div>

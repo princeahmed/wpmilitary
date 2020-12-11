@@ -1,0 +1,16 @@
+#solutions{
+  .solution{
+    padding: 50px 0;
+
+    &>.col-md-7{
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      justify-content: center;
+
+      &:nth-child(2){
+        align-items: flex-end;
+      }
+    }
+  }
+}
