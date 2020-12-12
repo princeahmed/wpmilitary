@@ -51,14 +51,9 @@
 				<div class="col-md-6 mt-md-0 mt-3 footer-content">
 
 					<!-- Content -->
-					<div class="footer-logo footer-menu-title">
-						<img src="<?php echo get_theme_file_uri( 'assets/images/wp-radio/play-button.svg' ) ?>" class="img-fluid">
-						<span>WP RADIO</span>
-					</div>
+						<h5 class="gradient-purple footer-menu-title">WP MILITARY</h5>
 
-					<p>WP Radio is a Worldwide Radio Station Directory Player Plugin for WordPress,
-						to Create Worldwide Radio Station Directory Website. You Can Add and Play Unlimited Live Radio Stream Link Such as:
-						iceCast, Shoutcast, Radionomy, Radiojar, RadioCo, etc Live stream.</p>
+					<p>We aim to push boundaries and provide top notch WordPress services & products. Being active members of the WordPress community, our work has reached to thousands!.</p>
 
 				</div>
 				<!-- Grid column -->
@@ -69,15 +64,15 @@
 				<div class="col-md-3 mb-md-0 mb-3 footer-menu">
 
 					<!-- Links -->
-					<h5 class="text-uppercase footer-menu-title">Addons</h5>
+					<h5 class="gradient-purple footer-menu-title">PRODUCTS</h5>
 
 					<ul class="list-unstyled">
-						<li>
-							<a href="#!">WP Radio User Frontend</a>
-						</li>
-						<li>
-							<a href="#!">WP Radio Image Import</a>
-						</li>
+						<li><a href="/wp-radio">WP Radio Player</a></li>
+						<li><a href="#!">WP TV Player</a></li>
+						<li><a href="#!">All in One Video Downloader</a></li>
+						<li><a href="#!">WP Instant Pages</a></li>
+						<li><a href="#!">WP Notification Plus</a></li>
+						<li><a href="#!">WP Portfolio Showcase</a></li>
 					</ul>
 
 				</div>

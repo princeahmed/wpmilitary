@@ -1,0 +1,13 @@
+@import "../components/footer";
+
+#footer{
+  .card .card-header h3{
+    color: #fff;
+  }
+
+  .footer-menu-title{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 0 rgba(#fff, 0.8);
+  }
+}

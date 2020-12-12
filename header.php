@@ -10,23 +10,34 @@
 </head>
 <body>
 
-<div class="primary-nav">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<nav class="navbar navbar-expand-sm justify-content-between">
-					<a class="navbar-brand">WP Military</a>
+<nav class="primary-nav navbar navbar-expand-sm justify-content-between fixed-top">
+	<a href="/" class="navbar-brand">WP Military</a>
 
-					<!-- Links -->
-					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">About</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+		<!-- Links -->
+		<ul class="navbar-nav">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+					Products
+				</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="/wp-radio">WP Radio Player</a>
+					<a class="dropdown-item" href="#">WP TV Player</a>
+					<a class="dropdown-item" href="#">ALL in One Video Downloader</a>
+					<a class="dropdown-item" href="#">WP Instant Pages</a>
+					<a class="dropdown-item" href="#">Social Proofo</a>
+					<a class="dropdown-item" href="#">WP Portfolio Showcase</a>
+				</div>
+			</li>
+
+			<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+		</ul>
 	</div>
-</div>
+</nav>

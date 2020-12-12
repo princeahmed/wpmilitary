@@ -8,9 +8,41 @@
       align-items: flex-start;
       justify-content: center;
 
+      h2{
+        font-family: 'Nunito', sans-serif;
+        font-size: 30px;
+        font-weight: 900;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      h3{
+        font-size: 20px;
+        font-weight: bold;
+        color: $color_bg;
+      }
+
+      p{
+        margin: 15px 0 30px;
+      }
+
+      .btn{
+        font-size: 16px;
+        padding: 8px 18px;
+      }
+
       &:nth-child(2){
         align-items: flex-end;
+        text-align: right;
       }
     }
+  }
+
+  .view-all{
+    padding: 10px 20px;
+    font-size: 18px;
+    display: block;
+    width: 230px;
+    margin: 50px auto auto;
   }
 }

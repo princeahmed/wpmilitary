@@ -4,7 +4,7 @@
 
 			<div class="col-md-12">
 				<div class="section-title">
-					<h2>Our Specialities</h2>
+					<h2 class="gradient-peach">Our Specialities</h2>
 					<h3>We help WordPress users around the world with amazing products that solve their web problems. </h3>
 				</div>
 			</div>
@@ -36,7 +36,7 @@
 			<div class="col-md-4">
 				<div class="speciality security">
 					<i class="fas fa-3x fa-lock"></i>
-					<h3>Security</h3>
+					<h3>High Security</h3>
 				</div>
 			</div>
 			<div class="col-md-4">

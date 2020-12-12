@@ -4,9 +4,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="main-title text-center">
-						<h2 class="section-title"><span>A Words</span> From Our Users</h2>
-						<h5 class="section-subtitle">What People Think About Our Products</h5>
+					<div class="section-title text-center">
+						<h2 class="gradient-purple">A Words From Our Users</h2>
+						<h3>What People Think About Our Products</h3>
 					</div>
 				</div>
 			</div>

@@ -1,5 +1,32 @@
 .header{
-  height: calc(100vh - 70px);
+  height: 100vh;
   background-image: url("../images/wpmilitary/hero-bg.png");
   background-size: cover;
+
+  &-intro {
+    h2 {
+      font-family: 'Nunito', sans-serif;
+      font-size: 48px;
+      font-weight: 900;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      span{
+        &:nth-child(2){
+          color: $blue;
+        }
+        &:nth-child(1){
+          color: deeppink;
+        }
+      }
+
+    }
+
+    .btn{
+      font-size: 18px;
+      padding: 10px 20px;
+    }
+
+  }
+
 }
