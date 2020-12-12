@@ -1,8 +1,5 @@
-section.contact {
-  padding: 6rem 0 8rem;
-  background: url(http://jthemes.org/wp/nextapp/wp-content/themes/nextapp/images/bg-map.png);
-  background-position: right;
-
+#contact {
+  padding-top: 160px;
 
   .gform_fields {
     display: flex !important;
@@ -22,7 +19,7 @@ section.contact {
     }
   }
 
-  .gform_confirmation_message{
+  .gform_confirmation_message {
     color: deeppink;
     border: 1px solid;
     padding: 30px;
@@ -70,5 +67,4 @@ section.contact {
       margin-top: 10px;
     }
   }
-
 }
