@@ -35,7 +35,7 @@
 			</li>
 
 			<li class="nav-item"><a class="nav-link" href="#">About</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
+			<li class="nav-item"><a class="nav-link" href="/docs">Docs</a></li>
 			<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
 			<li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
 		</ul>

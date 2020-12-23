@@ -1,0 +1,33 @@
+#docs{
+  margin-bottom: 100px;
+
+}
+
+.doc-category-box{
+  border-radius: 8px;
+  border: 1px solid #4d784e;
+  overflow: hidden;
+
+  .doc-category-title{
+    text-align: center;
+    background: #4d784e;
+    color: #fff;
+    padding: 30px 5px;
+  }
+
+  .doc-category-posts{
+    padding: 30px 15px;
+
+    .doc-category-post{
+      a {
+        display: flex;
+        align-items: baseline;
+
+        .fa {
+          margin-right: 7px;
+        }
+      }
+    }
+
+  }
+}

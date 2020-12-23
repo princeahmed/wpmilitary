@@ -53,32 +53,36 @@ body {
 section{
   position: relative;
 
-  .section-title{
-    text-align: center;
-    margin-bottom: 50px;
+  padding: 80px 0;
+}
 
-    h2 {
-      font-weight: 900;
-      font-size: 48px;
-      font-family: 'Nunito', sans-serif;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+.section-title{
+  text-align: center;
+  margin-bottom: 50px;
 
-      span{
-        color: deeppink;
-      }
+  h2 {
+    font-weight: 900;
+    font-size: 48px;
+    font-family: 'Nunito', sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    span{
+      color: deeppink;
     }
-
-    h3 {
-      font-family: 'Nunito', sans-serif;
-      font-weight: 700;
-      font-size: 24px;
-      max-width: 60%;
-      margin: 0 auto;
-      color: $color_bg;
-    }
-
   }
 
-  padding: 80px 0;
+  h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    max-width: 60%;
+    margin: 0 auto;
+    color: $color_bg;
+  }
+
+}
+
+#site_main{
+  padding: 100px 0;
 }
