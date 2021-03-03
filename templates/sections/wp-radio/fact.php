@@ -14,7 +14,7 @@
 					</div>
 
 					<div class="fun-fact-content">
-						<h5><span class="count-number">45</span> <span class="counter-postfix">K+</span></h5>
+						<h5><span class="count-number">52</span> <span class="counter-postfix">K+</span></h5>
 						<h6>Radio Stations</h6>
 					</div>
 				</div>
@@ -27,7 +27,7 @@
 					</div>
 
 					<div class="fun-fact-content">
-						<h5><span class="count-number">233</span> <span class="counter-postfix">+</span></h5>
+						<h5><span class="count-number">190</span> <span class="counter-postfix">+</span></h5>
 						<h6>Countries</h6>
 					</div>
 				</div>
@@ -53,7 +53,7 @@
 					</div>
 
 					<div class="fun-fact-content">
-						<h5><span class="count-number">150</span> <span class="counter-postfix">K+</span></h5>
+						<h5><span class="count-number">20</span> <span class="counter-postfix">K+</span></h5>
 						<h6>Downloads</h6>
 					</div>
 				</div>

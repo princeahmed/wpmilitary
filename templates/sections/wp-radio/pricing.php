@@ -74,23 +74,23 @@
 							</div>
 
 							<div class="pr-column">
-								<div class="pr-header">
+								<div class="pr-header" style="padding-bottom: 50px">
 
-									<img src="<?php echo get_theme_file_uri('assets/images/wp-radio/50-off.png') ?>" class="img-fluid">
+<!--									<img src="--><?php //echo get_theme_file_uri('assets/images/wp-radio/50-off.png') ?><!--" class="img-fluid">-->
 
-									<div class="annual-price-cross">$120</div>
-									<div class="price annual-price">$59<span>/ Year</span></div>
+<!--									<div class="annual-price-cross">$120</div>-->
+									<div class="price annual-price">$79.99<span>/ Year</span></div>
 
-									<div class="lifetime-price-cross">$199</div>
-									<div class="price lifetime-price">$99<span>/ Forever</span></div>
+<!--									<div class="lifetime-price-cross">$199</div>-->
+									<div class="price lifetime-price">$199.99<span>/ Forever</span></div>
 
 									<h4 class="title">PRO</h4>
 								</div>
 
 								<ul class="list-unstyled pr-body">
 									<li><i class="fa fa-check"></i></li>
-									<li>45000+</li>
-									<li>233+</li>
+									<li>52000+</li>
+									<li>190+</li>
 									<li><i class="fa fa-check"></i></li>
 									<li><i class="fa fa-check"></i></li>
 									<li><i class="fa fa-check"></i></li>

@@ -3,7 +3,7 @@ import './components/testimonials';
 (function ($) {
   const app = {
     init: () => {
-      $('.count-number').counterUp({delay: 10, time: 3000});
+      //$('.count-number').counterUp({delay: 10, time: 3000});
 
       $(window).scroll(app.navbarSticky);
 
