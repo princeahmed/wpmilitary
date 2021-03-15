@@ -7,6 +7,20 @@
 						<h2 class="section-title"><span>Simple</span> Pricing, <span>Unbeatable</span> Value</h2>
 						<p class="section-subtitle">Join 1000+ User's Happy Community</p>
 					</div>
+
+					<div class="offer-section" style="background: #000;
+   color: #fff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 30px;">
+						<h2>SPECIAL LIMITED TIME OFFER</h2>
+						<p>Use the <b style="    background: green;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;">BIGSALE</b> coupon to get 50% off any plan.</p>
+					</div>
+
 				</div>
 			</div>
 
