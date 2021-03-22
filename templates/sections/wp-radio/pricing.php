@@ -8,19 +8,6 @@
 						<p class="section-subtitle">Join 1000+ User's Happy Community</p>
 					</div>
 
-					<div class="offer-section" style="background: #000;
-   color: #fff;
-    text-align: center;
-    padding: 30px;
-    border-radius: 5px;
-    margin: 30px;">
-						<h2>SPECIAL LIMITED TIME OFFER</h2>
-						<p>Use the <b style="    background: green;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;">BIGSALE</b> coupon to get 50% off any plan.</p>
-					</div>
-
 				</div>
 			</div>
 
@@ -93,10 +80,10 @@
 <!--									<img src="--><?php //echo get_theme_file_uri('assets/images/wp-radio/50-off.png') ?><!--" class="img-fluid">-->
 
 <!--									<div class="annual-price-cross">$120</div>-->
-									<div class="price annual-price">$79.99<span>/ Year</span></div>
+									<div class="price annual-price">$59.99<span>/ Year</span></div>
 
 <!--									<div class="lifetime-price-cross">$199</div>-->
-									<div class="price lifetime-price">$199.99<span>/ Forever</span></div>
+									<div class="price lifetime-price">$99.99<span>/ Forever</span></div>
 
 									<h4 class="title">PRO</h4>
 								</div>
