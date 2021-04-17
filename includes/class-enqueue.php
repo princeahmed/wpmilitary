@@ -14,7 +14,7 @@ if(!class_exists('WP_Military_Enqueue')){
 		}
 
 		public function enqueue_scripts(){
-			$is_wpradio = 'templates/wp-radio.php' == get_page_template_slug();
+			$is_wpradio = in_array(get_page_template_slug(), ['templates/wp-radio.php', 'templates/wp-radio-ads-player.php']);
 
 			wp_enqueue_style( 'bootstrap',
 			                  get_theme_file_uri( "assets/vendor/bootstrap/bootstrap.min.css" ),

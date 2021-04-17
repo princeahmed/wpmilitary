@@ -8,7 +8,6 @@ get_header( 'wp-radio' );
 
 ?>
 
-
 <?php get_template_part( 'templates/sections/wp-radio/hero' ); ?>
 
 <?php get_template_part( 'templates/sections/wp-radio/features' ); ?>
@@ -22,9 +21,6 @@ get_header( 'wp-radio' );
 <?php get_template_part( 'templates/sections/wp-radio/cta' ); ?>
 
 <?php get_template_part( 'templates/sections/wp-radio/contact' ); ?>
-
-<?php get_template_part( 'templates/sections/wp-radio/footer' ); ?>
-
 
 <?php
 get_footer( 'wp-radio' );
