@@ -75,6 +75,12 @@
 							<a href="#!">WP Radio User Frontend</a>
 						</li>
 						<li>
+							<a href="<?php echo site_url( 'wp-radio-ads-player' ); ?>">WP Radio Ads Player</a>
+						</li>
+						<li>
+							<a href="#!">WP Radio Proxy Player</a>
+						</li>
+						<li>
 							<a href="#!">WP Radio Image Import</a>
 						</li>
 					</ul>

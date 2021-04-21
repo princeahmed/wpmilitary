@@ -37,7 +37,7 @@
 			<ul class="nav navbar-nav menu_nav ml-auto">
 				<li class="nav-item"><a class="nav-link" href="<?php echo site_url( 'wp-radio' ); ?>">Home</a></li>
 				<li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
-				<li class="nav-item"><a class="nav-link" href="#contact">How To Use?</a></li>
+				<li class="nav-item"><a class="nav-link" href="#how-to">How To Use?</a></li>
 				<li class="nav-item">
 					<a class="nav-link buy-now-btn btn purchase" href="javascript:;">Buy Now</a>
 				</li>
@@ -93,7 +93,7 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<iframe width="100%" height="450px" src="https://www.youtube.com/embed/AnJtcDCEWDk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="100%" height="450px" src="https://youtu.be/YfOjHyoHG_Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 
 		</div>
