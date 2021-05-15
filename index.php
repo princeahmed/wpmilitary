@@ -1,68 +1,80 @@
 <?php
-
 /**
- * Template Name: Coming Soon
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link       https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package    WordPress
+ * @subpackage Twenty_Twenty_One
+ * @since      Twenty Twenty-One 1.0
  */
 
 get_header();
 
 ?>
-	<div class="overlay"></div>
-	<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-		<source src="<?php echo get_theme_file_uri( 'assets/images/coming-soon-bg.mp4' ); ?>" type="video/mp4">
-	</video>
+	<div id="main" class="pt-5 mb-5">
+		<div class="container">
+			<div class="col-md-8">
+				<?php
+				if ( have_posts() ) {
 
-	<div class="masthead">
-		<div class="masthead-bg"></div>
-		<div class="container h-100">
-			<div class="row h-100">
-				<div class="col-12 my-auto">
-					<div class="masthead-content text-white py-5 py-md-0">
-						<h1 class="mb-3">Coming Soon!</h1>
-						<p class="mb-2">We're working hard to finish the development of this site. Our target launch date is
-							<strong>27 December, 2020 </strong>! Sign up for updates using the form below!</p>
+					// Load posts loop.
+					while ( have_posts() ) {
+						the_post(); ?>
 
-						<!-- Subscription Form -->
-						<form id="wemail-embedded-subscriber-form" method="post" action="https://api.getwemail.io/v1/embed/subscribe/7e164d2c-c660-4a0b-955c-723718252774">
+						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+							<header class="entry-header">
+								<?php if ( is_singular() ) : ?>
+									<?php the_title( '<h1 class="entry-title default-max-width">', '</h1>' ); ?>
+								<?php else : ?>
+									<?php the_title( sprintf( '<h2 class="entry-title default-max-width"><a href="%s">',
+										esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+								<?php endif; ?>
 
-							<div class="input-group input-group-newsletter">
-								<input type="email" name="email" required="required" id="wemail-email" placeholder="Enter email" class="form-control"/>
-								<div class="input-group-append">
-									<button class="btn btn-secondary" type="submit" id="submit-button">Notify Me!</button>
-								</div>
-							</div>
+								<?php wpmilitary_post_thumbnail(); ?>
+							</header><!-- .entry-header -->
 
-						</form>
-						<script src="https://cdn.getwemail.io/static/js/form-embedded.js"></script>
+							<div class="entry-content">
+								<?php
+								the_content( sprintf( /* translators: %s: Name of current post. */ esc_html__( 'Continue reading %s',
+									'twentytwentyone' ), the_title( '<span class="screen-reader-text">', '</span>', false ) ) );
 
+								wp_link_pages( array(
+									'before'                                      => '<nav class="page-links" aria-label="'
+									                                                 . esc_attr__( 'Page', 'twentytwentyone' ) . '">',
+									'after'                                       => '</nav>',
+									/* translators: %: Page number. */ 'pagelink' => esc_html__( 'Page %', 'twentytwentyone' ),
+								) );
 
-						<a href="https://wpmilitary.com/wp-radio" class="btn">
-							<i class="fa fa-send"></i> GET WP RADIO</a>
+								?>
+							</div><!-- .entry-content -->
 
-					</div>
-				</div>
+						</article><!-- #post-<?php the_ID(); ?> -->
+					<?php }
+
+					// Previous/next page navigation.
+					twenty_twenty_one_the_posts_navigation();
+
+				} else {
+
+					// If no content, include the "No posts found" template.
+					get_template_part( 'template-parts/content/content-none' );
+
+				}
+
+				?>
 			</div>
+
+			<div class="col-md-4">
+
+			</div>
+
 		</div>
 	</div>
-
-	<!--	<div class="social-icons">-->
-	<!--		<ul class="list-unstyled text-center mb-0">-->
-	<!--			<li class="list-unstyled-item">-->
-	<!--				<a href="#">-->
-	<!--					<i class="fa fa-twitter"></i>-->
-	<!--				</a>-->
-	<!--			</li>-->
-	<!--			<li class="list-unstyled-item">-->
-	<!--				<a href="#">-->
-	<!--					<i class="fa fa-facebook-f"></i>-->
-	<!--				</a>-->
-	<!--			</li>-->
-	<!--			<li class="list-unstyled-item">-->
-	<!--				<a href="#">-->
-	<!--					<i class="fa fa-instagram"></i>-->
-	<!--				</a>-->
-	<!--			</li>-->
-	<!--		</ul>-->
-	<!--	</div>-->
 <?php
 get_footer();

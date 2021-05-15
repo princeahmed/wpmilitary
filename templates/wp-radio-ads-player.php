@@ -92,8 +92,10 @@
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
-			<div class="modal-body">
-				<iframe width="100%" height="450px" src="https://youtu.be/YfOjHyoHG_Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="modal-body text-center">
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/YfOjHyoHG_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 			</div>
 
 		</div>
@@ -244,7 +246,36 @@
 	</div>
 </section>
 
+<script src="https://checkout.freemius.com/checkout.min.js"></script>
+<script>
+    (function ($) {
+        $(document).ready(function () {
+
+            var handler = FS.Checkout.configure({
+                plugin_id: '8169',
+                plan_id: '13793',
+                public_key: 'pk_6ea92a3dcb76493cc509e826040c2',
+                image: '//s3-us-west-2.amazonaws.com/freemius/plugins/8169/icons/4a3172a64743226b9e6c9899208a27a2.png'
+            });
+
+            $('.purchase').on('click', function (e) {
+                handler.open({
+                    name: 'WP Radio Ads Player',
+                    licenses: $('#licenses').val(),
+                    // You can consume the response for after purchase logic.
+                    purchaseCompleted: function (response) {
+                        // The logic here will be executed immediately after the purchase confirmation.                                // alert(response.user.email);
+                    },
+                    success: function (response) {
+                        // The logic here will be executed after the customer closes the checkout, after a successful purchase.                                // alert(response.user.email);
+                    }
+                });
+                e.preventDefault();
+            });
+
+        });
+    })(jQuery);
+</script>
+
 <?php
-
-
 get_footer( 'wp-radio' );
