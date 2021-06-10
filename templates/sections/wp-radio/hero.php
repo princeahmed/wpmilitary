@@ -12,6 +12,8 @@
 				<div class="d-flex mt-3 mb-1">
 					<a class="btn btn-outline-info btn-raised text-uppercase btn-lg  mt-md-3 mr-3" href="https://wordpress.org/plugins/wp-radio/" target="_blank" role="button">
 						<i class="fa fa-download"></i> Download</a>
+					<a class="btn btn-outline-success btn-raised text-uppercase btn-lg  mt-md-3 mr-3" href="https://webradiodirectory.com" target="_blank" role="button">
+						<i class="fa fa-eye" style="margin-right: 5px;"></i> Demo</a>
 					<a class="purchase btn btn-outline-warning btn-raised text-uppercase btn-lg  mt-md-3" href="#" role="button">
 						<i class="fa fa-send"></i> Buy Now</a>
 				</div>
