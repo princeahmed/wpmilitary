@@ -198,17 +198,17 @@
 
 			<div class="col-md-4">
 				<h4 class="text-center mb-3">Default Player</h4>
-				<?php echo do_shortcode( '[radio_player id=196]' ); ?>
+				<?php echo do_shortcode( '[radio_player id=100]' ); ?>
 			</div>
 
 			<div class="col-md-4">
 				<h4 class="text-center mb-3">Custom Colors Player</h4>
-				<?php echo do_shortcode( '[radio_player id=196]' ); ?>
+				<?php echo do_shortcode( '[radio_player id=102]' ); ?>
 			</div>
 
 			<div class="col-md-4">
 				<h4 class="text-center mb-3">Popup Icon Player</h4>
-				<?php echo do_shortcode( '[radio_player id=196]' ); ?>
+				<?php echo do_shortcode( '[radio_player id=104]' ); ?>
 			</div>
 
 		</div>
@@ -218,6 +218,6 @@
 
 <?php
 
-echo do_shortcode( '[radio_player id=196 player_type="full-width"]');
+echo do_shortcode( '[radio_player id=106 player_type="full-width"]');
 
 get_footer( 'wp-radio' );
