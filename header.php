@@ -27,10 +27,6 @@
 				<div class="dropdown-menu">
 					<a class="dropdown-item" href="/wp-radio">WP Radio Player</a>
 					<a class="dropdown-item" href="#">WP TV Player</a>
-					<a class="dropdown-item" href="#">ALL in One Video Downloader</a>
-					<a class="dropdown-item" href="#">WP Instant Pages</a>
-					<a class="dropdown-item" href="#">Social Proofo</a>
-					<a class="dropdown-item" href="#">WP Portfolio Showcase</a>
 				</div>
 			</li>
 

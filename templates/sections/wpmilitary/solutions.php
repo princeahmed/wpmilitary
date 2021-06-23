@@ -38,68 +38,6 @@
 
 					</div>
 
-					<div class="solution d-flex">
-						<div class="col-md-7">
-							<h2 class="gradient-purple">All In One Video Downloader</h2>
-							<h3>Download Videos From 35+ Websites.</h3>
-							<p>Worldwide Radio Station Directory Player Plugin for WordPress, to Create Worldwide Radio Station Directory Website. You Can Add and Play Unlimited Live Radio Stream Link Such as: iceCast, Shoutcast, Radionomy, Radiojar, RadioCo, etc Live stream.</p>
-							<a href="#" class="btn">Explore More <i class="fas fa fa-long-arrow-right"></i></a>
-						</div>
-
-						<div class="col-md-5">
-							<img src="<?php echo get_theme_file_uri( 'assets/images/wpmilitary/all-in-one-video-downloader.svg' ); ?>" class="img-fluid" alt="ALL In One Video Downloader">
-						</div>
-
-					</div>
-
-					<div class="solution d-flex">
-						<div class="col-md-5">
-							<img src="<?php echo get_theme_file_uri( 'assets/images/wpmilitary/wp-instant-pages.svg' ); ?>" class="img-fluid" alt="WP TV Player">
-						</div>
-
-						<div class="col-md-7">
-							<h2 class="gradient-purple">WP Instant Pages</h2>
-							<h3>Loads Pages Instantly Without Refresh.</h3>
-							<p>WP Instant Pages is the solution for you. Your site will appear faster and more immersive.
-								WP Instant Pages will render the pages faster and improved response times by improving the user experience.
-								This plugin will Reduce Server Hits and Network Load.
-							</p>
-							<a href="#" class="btn">Explore More <i class="fas fa fa-long-arrow-right"></i></a>
-						</div>
-
-					</div>
-
-					<div class="solution d-flex">
-						<div class="col-md-7">
-							<h2 class="gradient-purple">Notification Plus</h2>
-							<h3>Social Proof, Fomo, WooCommerce Recent Sales Notifications & Popups for WordPress.</h3>
-							<p>Notification Plus is a fully loaded toolkit with marketing tools and pop-ups to create FOMO, Social Proof, WooCommerce & Easy Digital Downloads Recent Sales notifications to Engage and keep your website visitors.</p>
-							<a href="#" class="btn">Explore More <i class="fas fa fa-long-arrow-right"></i></a>
-						</div>
-
-						<div class="col-md-5">
-							<img src="<?php echo get_theme_file_uri( 'assets/images/wpmilitary/notification-plus.svg' ); ?>" class="img-fluid" alt="ALL In One Video Downloader">
-						</div>
-
-					</div>
-
-					<div class="solution d-flex">
-						<div class="col-md-5">
-							<img src="<?php echo get_theme_file_uri( 'assets/images/wpmilitary/wp-portfolio-showcase.svg' ); ?>" class="img-fluid" alt="WP TV Player">
-						</div>
-
-						<div class="col-md-7">
-							<h2 class="gradient-purple">WP Portfolio Showcase</h2>
-							<h3>Showcase your portfolio in a new way.</h3>
-							<p>A super easy way to create a beautiful and responsive portfolio for your WordPress websites. Showcase you portfolio in different types.
-								Such as Slider, Lightbox Gallery, Popup Video or External Link. WP Portfolio Showcase plugin created for who like to showcase their
-								in high quality with best design.
-							</p>
-							<a href="#" class="btn">Explore More <i class="fas fa fa-long-arrow-right"></i></a>
-						</div>
-
-					</div>
-
 				</div>
 
 				<a href="#" class="btn view-all">View All Products <i class="fas fa fa-long-arrow-right"></i></a>

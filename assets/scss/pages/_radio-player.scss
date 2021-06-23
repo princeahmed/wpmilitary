@@ -1,0 +1,46 @@
+.radio-player-page {
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 50px;
+      margin-right: 8px;
+    }
+  }
+
+  /*--- Section features ---*/
+  .section-features {
+    .feature-box {
+      h5 {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+
+  /*--- Section how to  ---*/
+  .section-demos,
+  .section-how-to {
+    padding: 50px 0;
+    margin-bottom: 100px;
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    ol {
+      line-height: 2;
+    }
+
+    img {
+      border-radius: 8px;
+      box-shadow: 1px 1px 3px #555;
+      margin: 30px 0;
+      max-width: 800px;
+    }
+
+  }
+
+}
