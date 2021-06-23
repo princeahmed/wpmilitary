@@ -25,7 +25,8 @@
 					Products
 				</a>
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="/wp-radio">WP Radio Player</a>
+					<a class="dropdown-item" href="/wp-radio">WP Radio Directory</a>
+					<a class="dropdown-item" href="/radio-player">Radio Player</a>
 					<a class="dropdown-item" href="#">WP TV Player</a>
 				</div>
 			</li>
