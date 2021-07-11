@@ -196,7 +196,7 @@
 				<h2 class="section-title"><span>Demos</span></h2>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-md-4 mb-5">
 				<h4 class="text-center mb-3">Player Skin 1</h4>
 				<?php echo do_shortcode( '[radio_player id=102]' ); ?>
 			</div>
