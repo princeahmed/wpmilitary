@@ -233,6 +233,4 @@
 
 <?php
 
-echo do_shortcode( '[radio_player id=106 player_type="full-width"]');
-
 get_footer( 'wp-radio' );
