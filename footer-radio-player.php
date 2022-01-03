@@ -18,13 +18,11 @@
 
 							<script src="https://cdn.getwemail.io/static/js/form-embedded.js"></script>
 							<!-- Form -->
-							<form id="wemail-embedded-subscriber-form" method="post"
-								  action="https://api.getwemail.io/v1/embed/subscribe/7e164d2c-c660-4a0b-955c-723718252774">
+							<form id="wemail-embedded-subscriber-form" method="post" action="https://api.getwemail.io/v1/embed/subscribe/7e164d2c-c660-4a0b-955c-723718252774">
 
 								<div class="form-group">
 									<div class="input-group">
-										<input type="email" name="email" required="required" id="wemail-email"
-											   placeholder="Enter email" class="form-control"/>
+										<input type="email" name="email" required="required" id="wemail-email" placeholder="Enter email" class="form-control"/>
 										<div class="input-group-append">
 											<!-- Submit Button -->
 											<button type="submit" class="btn gradient-green">Subscribe
@@ -52,10 +50,17 @@
 				<div class="col-md-6 mt-md-0 mt-3 footer-content">
 
 					<!-- Content -->
-					<h5 class="gradient-purple footer-menu-title">WP MILITARY</h5>
+					<div class="footer-logo footer-menu-title">
+						<img src="<?php echo get_theme_file_uri( 'assets/images/wp-radio/play-button.svg' ) ?>" class="img-fluid">
+						<span>RADIO PLAYER</span>
+					</div>
 
-					<p>We aim to push boundaries and provide top notch WordPress services & products. Being active
-						members of the WordPress community, our work has reached to thousands!.</p>
+					<p>
+						A simple, easy to use, user friendly and fully customizable web radio player for WordPress.
+						<br>
+						<br>
+						You can play any live mp3, iceCast and Shoutcast stream in your WordPress website using shortcode, gutenberg block, elementor widget, sidebar widget, full-width sticky and popup player.
+					</p>
 
 				</div>
 				<!-- Grid column -->
@@ -113,28 +118,23 @@
 				<!-- Copyright -->
 				<div class="col-6">
 					<p class="text-light">
-						&copy; <?php echo date('Y') ?> <a href="<?php echo site_url(); ?>" target="_blank" title="WP Military">WP
-							Military</a> All Rights Reserved
+						&copy; 2020 <a href="<?php echo site_url(); ?>" target="_blank" title="WP Military">WP Military</a> All Rights Reserved
 					</p>
 				</div>
 
 				<!-- Social Icons -->
 				<div class="col-6 text-right footer-socials">
-
-					<a href="https://www.facebook.com/wpmilitary" class="btn gradient-blue">
+					<a class="btn gradient-blue">
 						<span class="fa fa-facebook"></span>
 					</a>
-
-					<a href="https://www.youtube.com/channel/UCtDcr4ignMbaryNP-4RC-rw" class="btn gradient-peach">
-						<span class="fa fa-youtube-play"></span>
+					<a class="btn gradient-peach">
+						<span class="fa fa-instagram"></span>
 					</a>
-
-					<a href="https://twitter.com/wpmilitary" class="btn gradient-green">
+					<a class="btn gradient-green">
 						<span class="fa fa-twitter"></span>
 					</a>
-
-					<a href="https://www.linkedin.com/company/wpmilitary" class="btn gradient-purple">
-						<span class="fa fa-linkedin"></span>
+					<a class="btn gradient-purple">
+						<span class="fa fa-pinterest"></span>
 					</a>
 				</div>
 			</div>
@@ -142,7 +142,6 @@
 	</div>
 
 </footer><!-- .ui-footer -->
-
 
 <?php wp_footer(); ?>
 </body>

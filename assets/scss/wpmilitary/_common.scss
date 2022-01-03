@@ -42,21 +42,22 @@ body {
   background-color: $color_bg_strong;
 }
 
-.btn{
+.btn {
   background-color: $color_bg_strong;
   color: #fff;
-  &:hover{
+
+  &:hover {
     color: $color_link;
   }
 }
 
-section{
+section {
   position: relative;
 
   padding: 80px 0;
 }
 
-.section-title{
+.section-title {
   text-align: center;
   margin-bottom: 50px;
 
@@ -67,7 +68,7 @@ section{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    span{
+    span {
       color: deeppink;
     }
   }
@@ -83,6 +84,10 @@ section{
 
 }
 
-#site_main{
+#site_main {
   padding: 100px 0;
+}
+
+#wrapper {
+  margin-top: 60px;
 }

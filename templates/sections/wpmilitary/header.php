@@ -12,7 +12,7 @@
 					our work has reached to thousands!
 				</p>
 
-				<a href="#" class="btn">
+				<a href="<?php echo site_url('products') ?>" class="btn">
 					Explore Products
 				<i class="fas fa fa-long-arrow-right"></i>
 				</a>

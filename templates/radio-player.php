@@ -233,4 +233,4 @@
 
 <?php
 
-get_footer( 'wp-radio' );
+get_footer( 'radio-player' );
