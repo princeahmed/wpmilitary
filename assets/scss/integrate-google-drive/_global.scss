@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+
+body{
+  font-family: 'Rubik', sans-serif;
+  position: relative;
+}
+
+section{
+  position: relative;
+}
+
+.section-title{
+  font-weight: 900;
+  font-size: 48px;
+  font-family: 'Nunito', sans-serif;
+  span{
+    color: deeppink;
+  }
+}
+
+.section-subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.gradient-purple {
+  background: linear-gradient(45deg, #fd81b5 0%, #c961f7 50%, #8089ff 100%);
+}
+
+.gradient-blue {
+  background: linear-gradient(45deg, #8089ff 0%, #54ceff 100%);
+}
+
+.gradient-peach {
+  background: linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+}
+
+.gradient-green {
+  background: linear-gradient(45deg, #19d9b4 0%, #92d275 100%);
+}

@@ -18,6 +18,11 @@ if(!class_exists('WP_Military_Enqueue')){
 				'templates/wp-radio.php',
 				'templates/wp-radio-ads-player.php',
 				'templates/radio-player.php',
+				'templates/integrate-google-drive.php',
+			]);
+
+			$is_integrate_google_drive = in_array(get_page_template_slug(), [
+				'templates/integrate-google-drive.php',
 			]);
 
 			wp_enqueue_style( 'bootstrap',
@@ -62,6 +67,15 @@ if(!class_exists('WP_Military_Enqueue')){
 			                   [ 'jquery' ],
 			                   '4.5.3',
 			                   true );
+
+			/** Integrate Google Drive Styles */
+			if ( $is_integrate_google_drive ) {
+				wp_enqueue_style( 'wpmilitary-integrate-google-drive', get_theme_file_uri( "assets/css/integrate-google-drive.css" ) );
+//				wp_enqueue_script( 'wpmilitary-integrate-google-drive', get_theme_file_uri( "assets/js/integrate-google-drive.min.js" ), [ 'jquery', 'wp-util' ], time(), true );
+
+				return;
+			}
+
 
 			/** WP Radio Styles */
 			if ( $is_wpradio ) {

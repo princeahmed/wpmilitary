@@ -22,7 +22,7 @@ const server = browserSync.create();
 
 const paths = {
   css: {
-    src: ['assets/scss/style.scss', 'assets/scss/wp-radio.scss'],
+    src: ['assets/scss/style.scss', 'assets/scss/wp-radio.scss', 'assets/scss/integrate-google-drive.scss'],
     dest: 'assets/css/'
   },
   js: {

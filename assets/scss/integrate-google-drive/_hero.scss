@@ -1,0 +1,38 @@
+#hero {
+  padding: 10rem 0 5rem;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #00095e;
+  background-image: url(../images/integrate-google-drive/hero-bg.webp);
+  background-size: 70%;
+  background-position: center right;
+
+  .hero-text{
+    h1{
+      color: deepskyblue;
+    }
+
+    h5{
+      color: deepskyblue;
+    }
+
+    p{
+      color: #fff;
+      margin-top: 30px;
+    }
+
+    .section-title{
+      span:nth-child(1){
+        color: #537ABD;
+      }
+      span:nth-child(2){
+        color: #2EB672;
+      }
+      span:nth-child(3){
+        color: #FED14B;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,32 @@
+#cta{
+  padding: 5rem 0;
+  background-image: linear-gradient(40deg,#0BDFB9 0%,#5513D5 100%);
+
+  .cta-img img{
+    max-width: 450px;
+  }
+
+  .section-title{
+    font-size: 54px;
+    margin-right: 6rem;
+  }
+
+  .section-subtitle{
+    margin-top: 22px;
+  }
+
+  .cta-btn a{
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-weight: 500;
+    margin-top: 2rem;
+
+    &:hover{
+      background: deeppink;
+    }
+
+  }
+
+}

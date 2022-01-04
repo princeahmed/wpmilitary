@@ -1,0 +1,39 @@
+#features {
+  background-color: #EAEEFF;
+  padding: 4rem ;
+  text-align: center;
+
+  .section-title{
+    margin-bottom: 3rem;
+    z-index: 2;
+    position: relative;
+  }
+
+  img{
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .feature-box {
+    h5{
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+    }
+
+    .feature-icon{
+      color: #fff;
+      border: 1px solid #ddd;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      box-shadow: 0px 0px 9px 2px #ddd;
+      background-image: -webkit-linear-gradient(
+          90deg,#e78ae9 0%,#926ef8 100%);
+    }
+  }
+
+  p{
+    color: #777;
+  }
+}
