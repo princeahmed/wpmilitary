@@ -38,9 +38,12 @@
 
 		<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 			<ul class="nav navbar-nav menu_nav ml-auto">
-				<li class="nav-item"><a class="nav-link" href="<?php echo site_url( 'integrate-google-drive' ); ?>">Home</a></li>
-				<li class="nav-item"><a href="<?php echo site_url( 'integrate-google-drive' ); ?>#features" class="nav-link">Features</a></li>
-				<li class="nav-item"><a href="<?php echo site_url( 'integrate-google-drive' ); ?>#how-to" class="nav-link">How to use</a></li>
+				<li class="nav-item"><a class="nav-link"
+										href="<?php echo site_url( 'integrate-google-drive' ); ?>">Home</a></li>
+				<li class="nav-item"><a href="<?php echo site_url( 'integrate-google-drive' ); ?>#features"
+										class="nav-link">Features</a></li>
+				<li class="nav-item"><a href="<?php echo site_url( 'integrate-google-drive' ); ?>#how-to"
+										class="nav-link">How to use</a></li>
 			</ul>
 		</div>
 
@@ -75,6 +78,7 @@
 					   href="https://wordpress.org/plugins/integrate-google-drive" target="_blank" role="button">
 						<i class="fa fa-download" style="margin-right: 5px;"></i> Download Now</a>
 				</div>
+
 			</div>
 
 			<div class="col-12 col-md-5 order-sm-1 order-md-2">
@@ -191,7 +195,7 @@
 </section>
 
 
-<!--demos -->
+<!-- Demos -->
 <section id="how-to" class="section-how-to">
 
 	<?php
@@ -248,6 +252,59 @@
 				<?php } ?>
 			</div>
 
+		</div>
+	</div>
+</section>
+
+<!-- Call to action -->
+<section id="cta" class="section-cta">
+	<img src="<?php echo get_theme_file_uri( 'assets/images/integrate-google-drive/cta-bg.png' ); ?>" class="cta_bg_1">
+	<img src="<?php echo get_theme_file_uri( 'assets/images/integrate-google-drive/cta-bg-2.png' ); ?>"
+		 class="cta_bg_2">
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 text-center">
+				<h3 class="section-title text-light">Say hello to the most popular WordPress Google Drive plugin!</h3>
+				<p class="section-subtitle text-warning"> Join now and start using your Google Drive even more efficiently by
+					integrating it on your website!</p>
+
+				<a class="btn btn-primary btn-raised text-uppercase btn-lg  mt-md-3 mr-3"
+				   href="https://wordpress.org/plugins/integrate-google-drive" target="_blank" role="button">
+					<i class="fa fa-download" style="margin-right: 5px;"></i>
+					<span>Download Now</span>
+				</a>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Contact	-->
+<section id="contact" class="contact">
+	<div class="container">
+		<div class="row">
+
+
+			<div class="col-md-12 text-center mb-5">
+				<h2 class="section-title">Any <span>Query</span>? Looking For <span>Support</span>?</h2>
+				<h5 class="section-subtitle">We are always ready to help you out.</h5>
+			</div>
+
+			<div class="col-md-7">
+				<div class="contact_form">
+
+
+					<?php echo do_shortcode( '[gravityform id=1 ajax="true" title="false" description="false"]' ) ?>
+
+				</div>
+			</div>
+
+			<div class="col-md-5">
+				<img src="<?php echo get_theme_file_uri( 'assets/images/wp-radio/contact1.svg' ); ?>" class="img-fluid"
+					 alt="">
+			</div>
 		</div>
 	</div>
 </section>

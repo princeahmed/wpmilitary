@@ -1,32 +1,28 @@
-#cta{
-  padding: 5rem 0;
-  background-image: linear-gradient(40deg,#0BDFB9 0%,#5513D5 100%);
+#cta {
+  padding: 8rem 0;
+  background: #242b4b;
 
-  .cta-img img{
-    max-width: 450px;
+  .section-title {
+    font-weight: 900;
+    font-size: 48px;
+    font-family: 'Nunito', sans-serif;
   }
 
-  .section-title{
-    font-size: 54px;
-    margin-right: 6rem;
+  .section-subtitle {
+    margin: 30px 0;
   }
 
-  .section-subtitle{
-    margin-top: 22px;
+  .cta_bg_1, .cta_bg_2 {
+    position: absolute;
+    top: 0;
   }
 
-  .cta-btn a{
-    color: #fff;
-    font-size: 18px;
-    padding: 12px 40px;
-    border-radius: 25px;
-    font-weight: 500;
-    margin-top: 2rem;
+  .cta_bg_1 {
+    left: 0;
+  }
 
-    &:hover{
-      background: deeppink;
-    }
-
+  .cta_bg_2 {
+    right: 0;
   }
 
 }
