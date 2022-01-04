@@ -86,10 +86,8 @@
 						<li>
 							<a href="<?php echo site_url(); ?>">Home</a>
 						</li>
-						<li>
-							<a href="<?php echo site_url( 'about-us' ); ?>">About Us</a>
-						</li>
-						<li><a href="<?php echo site_url( 'blog' ); ?>">Blog</a></li>
+<!--						<li><a href="--><?php //echo site_url( 'about-us' ); ?><!--">About Us</a></li>-->
+<!--						<li><a href="--><?php //echo site_url( 'blog' ); ?><!--">Blog</a></li>-->
 						<li><a href="<?php echo site_url( 'contact' ); ?>">Contact Us</a></li>
 						<li>
 							<a href="<?php echo get_privacy_policy_url(); ?>">Privacy Policy</a>
