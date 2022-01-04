@@ -42,8 +42,17 @@
 										href="<?php echo site_url( 'integrate-google-drive' ); ?>">Home</a></li>
 				<li class="nav-item"><a href="<?php echo site_url( 'integrate-google-drive' ); ?>#features"
 										class="nav-link">Features</a></li>
+
 				<li class="nav-item"><a href="<?php echo site_url( 'integrate-google-drive' ); ?>#how-to"
 										class="nav-link">How to use</a></li>
+
+				<li class="nav-item"><a href="<?php echo site_url( 'integrate-google-drive' ); ?>#contact"
+										class="nav-link">Contact</a></li>
+				<li class="nav-item">
+					<a class="btn btn-primary"
+					   href="https://wordpress.org/plugins/integrate-google-drive" target="_blank" role="button">
+						<i class="fa fa-download" style="margin-right: 5px;"></i> Download</a>
+				</li>
 			</ul>
 		</div>
 
@@ -74,7 +83,7 @@
 				</p>
 
 				<div class="d-flex mt-3 mb-1">
-					<a class="btn btn-outline-warning btn-raised text-uppercase btn-lg  mt-md-3 mr-3"
+					<a class="btn btn-outline-warning btn-lg  mt-md-3 mr-3"
 					   href="https://wordpress.org/plugins/integrate-google-drive" target="_blank" role="button">
 						<i class="fa fa-download" style="margin-right: 5px;"></i> Download Now</a>
 				</div>

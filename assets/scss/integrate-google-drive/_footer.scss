@@ -1,0 +1,13 @@
+#footer{
+  .footer-menu-title.footer-logo{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+
+    span{
+      margin-right: 8px;
+    }
+  }
+}
