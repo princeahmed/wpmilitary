@@ -31,9 +31,9 @@
 				</div>
 			</li>
 
-			<li class="nav-item"><a class="nav-link" href="<?php echo site_url( 'about-us' ); ?>">About</a></li>
+<!--			<li class="nav-item"><a class="nav-link" href="--><?php //echo site_url( 'about-us' ); ?><!--">About</a></li>-->
 			<li class="nav-item"><a class="nav-link" href="<?php echo site_url( 'docs' ); ?>">Docs</a></li>
-			<li class="nav-item"><a class="nav-link" href="<?php echo site_url( 'blog' ); ?>">Blog</a></li>
+<!--			<li class="nav-item"><a class="nav-link" href="--><?php //echo site_url( 'blog' ); ?><!--">Blog</a></li>-->
 			<li class="nav-item"><a class="nav-link" href="<?php echo site_url( 'contact' ); ?>">Contact</a></li>
 		</ul>
 	</div>
