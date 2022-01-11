@@ -51,10 +51,8 @@
 
 					<!-- Content -->
 					<div class="footer-logo footer-menu-title">
-						<img src="<?php echo get_theme_file_uri( 'assets/images/integrate-google-drive/drive-icon.png' ) ?>" class="img-fluid">
-						<span style="color: #537ABD">INTEGRATE</span>
-						<span style="color: #2EB672">GOOGLE</span>
-						<span style="color: #FED14B">DRIVE</span>
+						<img src="<?php echo get_theme_file_uri( 'assets/images/integrate-google-drive/cloud-icon.png' ) ?>" class="img-fluid">
+						<span style="color: #537ABD">DRIVE INTEGRATION</span>
 					</div>
 
 					<p>

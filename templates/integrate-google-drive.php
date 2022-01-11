@@ -24,9 +24,9 @@
 <nav id="header-nav" class="navbar navbar-expand-lg">
 	<div class="container">
 		<a class="navbar-brand" href="<?php echo site_url( '/radio-player' ); ?>">
-			<img src="<?php echo get_theme_file_uri( 'assets/images/integrate-google-drive/drive-icon.png' ) ?>"
+			<img src="<?php echo get_theme_file_uri( 'assets/images/integrate-google-drive/cloud-icon.png' ) ?>"
 				 alt="Integrate Google Drive" class="img-fluid">
-			<span>Integrate</span> <span>Google</span> <span>Drive</span>
+			<span>Drive Integration</span>
 		</a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -66,9 +66,7 @@
 
 			<div class="col-12 col-md-7 pb-5 order-2 order-sm-2 hero-text">
 				<h1 class="section-title">
-					<span>Integrate</span>
-					<span>Google</span>
-					<span>Drive</span>
+					<span>Drive Integration</span>
 				</h1>
 				<h5 class="section-subtitle">Complete Google Drive Cloud Solution for WordPress.</h5>
 
@@ -110,7 +108,7 @@
 	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">Integrate Google Drive Intro</h5>
+				<h5 class="modal-title" id="exampleModalLongTitle">Drive Integration Intro</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -135,7 +133,7 @@
 		<div class="row">
 
 			<div class="col-md-12">
-				<h2 class="section-title">Amazing <span>Integrate Google Drive</span> Features.</h2>
+				<h2 class="section-title">Amazing <span>Drive Integration</span> Features.</h2>
 			</div>
 
 			<div class="col-md-4">
